@@ -4,13 +4,14 @@ A skeleton flask app to use for a coding challenge.
 
 ## Install:
 
-You can use a virtual environment (conda, venv, etc):
+- Developed for Python 3.6.10
+
+### You can use the setup_venv.sh shell script to install the virtual environment (requires pyenv to be installed)
 ```
-conda env create -f environment.yml
-source activate user-profiles
+sh setup_venv.sh
 ```
 
-Or just pip install from the requirements file
+### Or just pip install from the requirements file
 ``` 
 pip install -r requirements.txt
 ```
